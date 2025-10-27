@@ -1,0 +1,25 @@
+# Generated
+.private/*
+
+build/
+.cache/
+docs/
+
+.root_indicator
+
+# Do not ignore the following
+!.private/project.json
+
+# Other files
+*.ttf
+*.swp
+*.bak
+*.tmp
+
+*.o
+*.obj
+*.d
+
+# OS
+.DS_Store
+
