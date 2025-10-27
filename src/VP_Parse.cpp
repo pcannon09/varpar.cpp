@@ -45,6 +45,9 @@ namespace vp
 		this->status.constructed = true;
 	}
 
+	Parser::~Parser()
+	{ }
+
 	ParserReturn Parser::parse()
 	{
 		this->parseRet = this->__parse();
