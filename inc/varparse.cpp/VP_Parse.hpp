@@ -2,7 +2,7 @@
 
 #include "VPpredefines.hpp"
 
-#if VP_DEFAULT_CPP_STD >= __cplusplus
+#if  __cplusplus >= VP_DEFAULT_CPP_STD 
 #include <string>
 #include <vector>
 #include <map>
