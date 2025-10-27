@@ -146,7 +146,7 @@ install(DIRECTORY ${INC_DIR}/ ${SRC_DIR}/
 
 install(EXPORT ${projectName}Target
     FILE ${projectName}Target.cmake
-    NAMESPACE Example::
+    NAMESPACE VARPAR::
     DESTINATION lib/cmake/${projectName}
 )
 
